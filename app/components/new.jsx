@@ -113,7 +113,7 @@ export default function NewRequest() {
         <h3 className="list-title">Submitted Requests</h3>
         <div className="requests-list">
           <ul className="request-items">
-            {requests.map((request, index) => (
+            {requests.slice().reverse().map((request, index) => (
               <li key={index} className="request-item">
                 <div className="line-item">
                   <strong>Part Number:</strong> {request.partNumber} <br />

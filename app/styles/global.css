@@ -1,0 +1,67 @@
+:root {
+    --main-bg-color: #eee;
+    --secondary-bg-color: #2c3e50;
+    --primary-button-color: #3498db;
+}
+
+.main-window-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.displayFlex {
+    display: flex;
+}
+
+.flexCenterV {
+    justify-content: center;
+}
+
+.flexAll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav {
+    width: 100%;
+    height: 4rem;
+    background: var(--secondary-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-bg-color);
+}
+
+.nav-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 2.5rem;
+    background-color: var(--primary-button-color);
+    color: var(--main-bg-color);
+    border: none;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+.nav-button:hover{
+    cursor: pointer;
+}
+
+h1 {
+    color: var(--main-bg-color);
+}
+
+.main-window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff; 
+}
+

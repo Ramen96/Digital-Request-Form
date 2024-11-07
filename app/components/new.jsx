@@ -74,6 +74,7 @@ export default function NewRequest() {
             onChange={(e) => setDepartment(e.target.value)} 
             required
           >
+            <option value="">Select Department</option>
             <option value="hardware">Hardware</option>
             <option value="motor">Motor</option>
             <option value="assembly">Assembly</option>
